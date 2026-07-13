@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: raw
+    database: SWIFTCART_DB
+    schema: RAW
+
+    config:
+      freshness:
+        warn_after:
+          count: 30
+          period: day
+        error_after:
+          count: 90
+          period: day
+
+    tables:
+      - name: ORDERS
+      - name: CUSTOMERS
+      - name: ORDER_ITEMS
+      - name: PAYMENTS
+      - name: PRODUCTS
+      - name: SELLERS
+      - name: REVIEWS
+      - name: GEOLOCATION
+      - name: PRODUCT_CATEGORY_TRANSLATION

@@ -1,0 +1,658 @@
+[0m17:33:04.043378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017769C08E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017769BDA150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017769BAC150>]}
+
+
+============================== 17:33:04.051378 | a07cd631-7423-4e0c-b6d0-934a03b26bc2 ==============================
+[0m17:33:04.051378 [info ] [MainThread]: Running with dbt=1.11.12
+[0m17:33:04.053381 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Nomaan\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init swiftcart_analytics', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:33:04.122378 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Nomaan\.dbt
+[0m17:33:04.129380 [debug] [MainThread]: Starter project path: C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt\include\starter_project
+[0m17:33:04.270380 [info ] [MainThread]: 
+Your new dbt project "swiftcart_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:33:04.277384 [info ] [MainThread]: Setting up your profile.
+[0m17:33:19.016133 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:33:19.017098 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:33:19.018091 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:38:01.038613 [info ] [MainThread]: Profile swiftcart_analytics written to C:\Users\Nomaan\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:38:01.040607 [debug] [MainThread]: Command `dbt init` succeeded at 17:38:01.040607 after 297.14 seconds
+[0m17:38:01.041608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017769C092D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017762F1AAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017768CBD810>]}
+[0m17:38:01.042610 [debug] [MainThread]: Flushing usage events
+[0m17:38:01.704015 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:42:44.914858 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F988CCA510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F98C315FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F98C17F290>]}
+
+
+============================== 17:42:44.924910 | 6eb61800-7ca2-4966-83a3-71a6862ee698 ==============================
+[0m17:42:44.924910 [info ] [MainThread]: Running with dbt=1.11.12
+[0m17:42:44.926860 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Nomaan\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:42:44.997858 [info ] [MainThread]: dbt version: 1.11.12
+[0m17:42:45.002859 [info ] [MainThread]: python version: 3.11.3
+[0m17:42:45.005863 [info ] [MainThread]: python path: C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Scripts\python.exe
+[0m17:42:45.009864 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m17:42:46.267900 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:42:46.269860 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:42:46.271860 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:42:46.401899 [info ] [MainThread]: Using profiles dir at C:\Users\Nomaan\.dbt
+[0m17:42:46.402859 [info ] [MainThread]: Using profiles.yml file at C:\Users\Nomaan\.dbt\profiles.yml
+[0m17:42:46.404859 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\dbt_project.yml
+[0m17:42:46.406858 [info ] [MainThread]: adapter type: snowflake
+[0m17:42:46.408862 [info ] [MainThread]: adapter version: 1.11.6
+[0m17:42:46.410864 [info ] [MainThread]: Configuration:
+[0m17:42:46.411862 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:42:46.413863 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:42:46.415862 [info ] [MainThread]: Required dependencies:
+[0m17:42:46.417860 [debug] [MainThread]: Executing "git --help"
+[0m17:42:46.532861 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:42:46.533864 [debug] [MainThread]: STDERR: "b''"
+[0m17:42:46.534861 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:42:46.536860 [info ] [MainThread]: Connection:
+[0m17:42:46.537860 [info ] [MainThread]:   account: mmzexcd-tw56854
+[0m17:42:46.539860 [info ] [MainThread]:   user: mehrnuman367440
+[0m17:42:46.540860 [info ] [MainThread]:   database: SWIFTCART_DB
+[0m17:42:46.541862 [info ] [MainThread]:   warehouse: SWIFTCART_WH
+[0m17:42:46.543860 [info ] [MainThread]:   role: SYSADMIN
+[0m17:42:46.545862 [info ] [MainThread]:   schema: ANALYTICS_DEV
+[0m17:42:46.546862 [info ] [MainThread]:   authenticator: None
+[0m17:42:46.549863 [info ] [MainThread]:   oauth_client_id: None
+[0m17:42:46.551864 [info ] [MainThread]:   query_tag: None
+[0m17:42:46.553860 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:42:46.554864 [info ] [MainThread]:   host: None
+[0m17:42:46.556864 [info ] [MainThread]:   port: None
+[0m17:42:46.557898 [info ] [MainThread]:   proxy_host: None
+[0m17:42:46.559860 [info ] [MainThread]:   proxy_port: None
+[0m17:42:46.560862 [info ] [MainThread]:   protocol: None
+[0m17:42:46.561861 [info ] [MainThread]:   connect_retries: 1
+[0m17:42:46.563861 [info ] [MainThread]:   connect_timeout: None
+[0m17:42:46.565863 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:42:46.567862 [info ] [MainThread]:   retry_all: False
+[0m17:42:46.568860 [info ] [MainThread]:   insecure_mode: False
+[0m17:42:46.570862 [info ] [MainThread]:   reuse_connections: True
+[0m17:42:46.573862 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m17:42:46.577861 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m17:42:46.579865 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m17:42:47.548058 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:42:48.892863 [error] [MainThread]: Encountered an error:
+
+[0m17:42:48.909857 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt\cli\requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt\cli\main.py", line 425, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt\task\debug.py", line 144, in run
+    connection_status = self.test_connection()
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt\task\debug.py", line 465, in test_connection
+    connection_result = self.attempt_connection(self.profile)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt\task\debug.py", line 443, in attempt_connection
+    adapter.debug_query()
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt\adapters\snowflake\impl.py", line 480, in debug_query
+    self.execute("select 1 as id")
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt_common\record.py", line 538, in record_replay_wrapper
+    return func_to_record(*call_args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt\adapters\base\impl.py", line 523, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt\adapters\snowflake\connections.py", line 563, in execute
+    from dbt_common.clients.agate_helper import empty_table
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt_common\clients\agate_helper.py", line 77, in <module>
+    DEFAULT_TYPE_TESTER = build_type_tester(())
+                          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt_common\clients\agate_helper.py", line 64, in build_type_tester
+    Number(null_values=("null", "")),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\agate\data_types\number.py", line 48, in __init__
+    number_symbols = self.locale.number_symbols.get('latn', self.locale.number_symbols)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\babel\core.py", line 687, in number_symbols
+    return self._data['number_symbols']
+           ^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\babel\core.py", line 474, in _data
+    self.__data = localedata.LocaleDataDict(localedata.load(self.__data_identifier))
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\babel\localedata.py", line 163, in load
+    data = load(parent).copy()
+           ^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\babel\localedata.py", line 163, in load
+    data = load(parent).copy()
+           ^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\babel\localedata.py", line 169, in load
+    data = pickle.load(fileobj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\babel\dates.py", line 35, in <module>
+    from babel import localtime
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\babel\localtime\__init__.py", line 41, in <module>
+    LOCALTZ = get_localzone()
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\babel\localtime\__init__.py", line 37, in get_localzone
+    return _get_localzone()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\babel\localtime\_win32.py", line 97, in _get_localzone
+    return _get_tzinfo_or_raise(get_localzone_name())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\babel\localtime\_helpers.py", line 43, in _get_tzinfo_or_raise
+    tzinfo = _get_tzinfo(tzenv)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\babel\localtime\_helpers.py", line 20, in _get_tzinfo
+    return pytz.timezone(tzenv)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\pytz\__init__.py", line 191, in timezone
+    if zone in all_timezones_set:  # noqa
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\pytz\lazy.py", line 154, in _lazy
+    for i in fill_iter.pop():
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\pytz\lazy.py", line 101, in _lazy
+    list.extend(self, fill_iter.pop())
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\pytz\__init__.py", line 1126, in <genexpr>
+    tz for tz in _all_timezones_unchecked if resource_exists(tz))
+                                             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\pytz\__init__.py", line 131, in resource_exists
+    open_resource(name).close()
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\pytz\__init__.py", line 118, in open_resource
+    return open(filename, 'rb')
+           ^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+[0m17:42:48.914859 [debug] [MainThread]: Command `dbt debug` failed at 17:42:48.914859 after 4.18 seconds
+[0m17:42:48.915861 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:42:48.916863 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F98C466F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F98E73E490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F98C500110>]}
+[0m17:42:48.918866 [debug] [MainThread]: Flushing usage events
+[0m17:43:24.761483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EF280C410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EF2736850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EF280C210>]}
+
+
+============================== 17:43:24.770484 | 26b5d318-5c56-4607-9de9-19025bc657de ==============================
+[0m17:43:24.770484 [info ] [MainThread]: Running with dbt=1.11.12
+[0m17:43:24.773484 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Nomaan\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:43:24.846483 [info ] [MainThread]: dbt version: 1.11.12
+[0m17:43:24.850486 [info ] [MainThread]: python version: 3.11.3
+[0m17:43:24.852482 [info ] [MainThread]: python path: C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Scripts\python.exe
+[0m17:43:24.854483 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m17:43:26.179482 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:43:26.180482 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:43:26.182484 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:43:26.319483 [info ] [MainThread]: Using profiles dir at C:\Users\Nomaan\.dbt
+[0m17:43:26.321483 [info ] [MainThread]: Using profiles.yml file at C:\Users\Nomaan\.dbt\profiles.yml
+[0m17:43:26.322486 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\dbt_project.yml
+[0m17:43:26.325484 [info ] [MainThread]: adapter type: snowflake
+[0m17:43:26.327482 [info ] [MainThread]: adapter version: 1.11.6
+[0m17:43:26.330483 [info ] [MainThread]: Configuration:
+[0m17:43:26.332482 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:43:26.337522 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:43:26.339484 [info ] [MainThread]: Required dependencies:
+[0m17:43:26.341484 [debug] [MainThread]: Executing "git --help"
+[0m17:43:26.448520 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:43:26.449487 [debug] [MainThread]: STDERR: "b''"
+[0m17:43:26.451483 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:43:26.453483 [info ] [MainThread]: Connection:
+[0m17:43:26.454482 [info ] [MainThread]:   account: mmzexcd-tw56854
+[0m17:43:26.456485 [info ] [MainThread]:   user: mehrnuman367440
+[0m17:43:26.457486 [info ] [MainThread]:   database: SWIFTCART_DB
+[0m17:43:26.459487 [info ] [MainThread]:   warehouse: SWIFTCART_WH
+[0m17:43:26.460483 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m17:43:26.462482 [info ] [MainThread]:   schema: ANALYTICS_DEV
+[0m17:43:26.463481 [info ] [MainThread]:   authenticator: None
+[0m17:43:26.465486 [info ] [MainThread]:   oauth_client_id: None
+[0m17:43:26.467482 [info ] [MainThread]:   query_tag: None
+[0m17:43:26.469481 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:43:26.471500 [info ] [MainThread]:   host: None
+[0m17:43:26.472483 [info ] [MainThread]:   port: None
+[0m17:43:26.474482 [info ] [MainThread]:   proxy_host: None
+[0m17:43:26.476485 [info ] [MainThread]:   proxy_port: None
+[0m17:43:26.477483 [info ] [MainThread]:   protocol: None
+[0m17:43:26.480484 [info ] [MainThread]:   connect_retries: 1
+[0m17:43:26.481484 [info ] [MainThread]:   connect_timeout: None
+[0m17:43:26.483483 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:43:26.484484 [info ] [MainThread]:   retry_all: False
+[0m17:43:26.486482 [info ] [MainThread]:   insecure_mode: False
+[0m17:43:26.492484 [info ] [MainThread]:   reuse_connections: True
+[0m17:43:26.494485 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m17:43:26.496485 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m17:43:26.499483 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m17:43:27.499516 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:43:31.484915 [debug] [MainThread]: Using snowflake connection "debug"
+[0m17:43:31.485916 [debug] [MainThread]: On debug: select 1 as id
+[0m17:43:31.486916 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:43:33.697469 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m17:43:33.698510 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m17:43:33.699510 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:43:33.701888 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:43:33.702882 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\dbt_project.yml> not found
+
+[0m17:43:33.703883 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001 (08001): Failed to connect to DB: mmzexcd-tw56854.snowflakecomputing.com:443. Incorrect username or password was specified.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:43:33.706887 [debug] [MainThread]: Command `dbt debug` failed at 17:43:33.706887 after 9.16 seconds
+[0m17:43:33.707888 [debug] [MainThread]: Connection 'debug' was left open.
+[0m17:43:33.709889 [debug] [MainThread]: On debug: No close available on handle
+[0m17:43:33.711886 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EF259F1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EEBF19D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EF258ECD0>]}
+[0m17:43:33.712885 [debug] [MainThread]: Flushing usage events
+[0m17:43:34.161260 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:49:16.421430 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000127A5839610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000127A5839A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000127A5839290>]}
+
+
+============================== 17:49:16.427412 | 916a3a93-acce-4141-808d-68ae62fb4cd0 ==============================
+[0m17:49:16.427412 [info ] [MainThread]: Running with dbt=1.11.12
+[0m17:49:16.429414 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Nomaan\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:49:16.475451 [info ] [MainThread]: dbt version: 1.11.12
+[0m17:49:16.477412 [info ] [MainThread]: python version: 3.11.3
+[0m17:49:16.478412 [info ] [MainThread]: python path: C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Scripts\python.exe
+[0m17:49:16.479412 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m17:49:17.272513 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:49:17.273512 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:49:17.274510 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:49:17.376510 [info ] [MainThread]: Using profiles dir at C:\Users\Nomaan\.dbt
+[0m17:49:17.377509 [info ] [MainThread]: Using profiles.yml file at C:\Users\Nomaan\.dbt\profiles.yml
+[0m17:49:17.378512 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\dbt_project.yml
+[0m17:49:17.381509 [info ] [MainThread]: adapter type: snowflake
+[0m17:49:17.382510 [info ] [MainThread]: adapter version: 1.11.6
+[0m17:49:17.383512 [info ] [MainThread]: Configuration:
+[0m17:49:17.385513 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:49:17.386511 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:49:17.388515 [info ] [MainThread]: Required dependencies:
+[0m17:49:17.389516 [debug] [MainThread]: Executing "git --help"
+[0m17:49:17.465511 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:49:17.467512 [debug] [MainThread]: STDERR: "b''"
+[0m17:49:17.468513 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:49:17.469511 [info ] [MainThread]: Connection:
+[0m17:49:17.470511 [info ] [MainThread]:   account: mmzexcd-tw56854
+[0m17:49:17.472534 [info ] [MainThread]:   user: mehrnuman367440
+[0m17:49:17.474511 [info ] [MainThread]:   database: SWIFTCART_DB
+[0m17:49:17.476512 [info ] [MainThread]:   warehouse: SWIFTCART_WH
+[0m17:49:17.477524 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m17:49:17.478512 [info ] [MainThread]:   schema: ANALYTICS_DEV
+[0m17:49:17.479512 [info ] [MainThread]:   authenticator: None
+[0m17:49:17.481513 [info ] [MainThread]:   oauth_client_id: None
+[0m17:49:17.482512 [info ] [MainThread]:   query_tag: None
+[0m17:49:17.484512 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:49:17.485514 [info ] [MainThread]:   host: None
+[0m17:49:17.487515 [info ] [MainThread]:   port: None
+[0m17:49:17.489513 [info ] [MainThread]:   proxy_host: None
+[0m17:49:17.490512 [info ] [MainThread]:   proxy_port: None
+[0m17:49:17.491511 [info ] [MainThread]:   protocol: None
+[0m17:49:17.492512 [info ] [MainThread]:   connect_retries: 1
+[0m17:49:17.494515 [info ] [MainThread]:   connect_timeout: None
+[0m17:49:17.495514 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:49:17.496512 [info ] [MainThread]:   retry_all: False
+[0m17:49:17.497515 [info ] [MainThread]:   insecure_mode: False
+[0m17:49:17.499512 [info ] [MainThread]:   reuse_connections: True
+[0m17:49:17.500510 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m17:49:17.501514 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m17:49:17.503514 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m17:49:18.225510 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:49:18.362549 [debug] [MainThread]: Using snowflake connection "debug"
+[0m17:49:18.363549 [debug] [MainThread]: On debug: select 1 as id
+[0m17:49:18.364552 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:49:19.335047 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m17:49:19.336048 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m17:49:19.337047 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:49:19.338071 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:49:19.340088 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\dbt_project.yml> not found
+
+[0m17:49:19.341085 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001 (08001): Failed to connect to DB: mmzexcd-tw56854.snowflakecomputing.com:443. Incorrect username or password was specified.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:49:19.343127 [debug] [MainThread]: Command `dbt debug` failed at 17:49:19.343127 after 3.03 seconds
+[0m17:49:19.344085 [debug] [MainThread]: Connection 'debug' was left open.
+[0m17:49:19.345130 [debug] [MainThread]: On debug: No close available on handle
+[0m17:49:19.345130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000127A7CBBA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001279EF69DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000127A4A1D910>]}
+[0m17:49:19.346084 [debug] [MainThread]: Flushing usage events
+[0m17:49:19.875960 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:50:28.572636 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000187AAB8BBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000187A3EAC750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000187AAAD94D0>]}
+
+
+============================== 17:50:28.578629 | 0b10c161-a457-429b-be7a-c55076464c51 ==============================
+[0m17:50:28.578629 [info ] [MainThread]: Running with dbt=1.11.12
+[0m17:50:28.580630 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Nomaan\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:50:28.628183 [info ] [MainThread]: dbt version: 1.11.12
+[0m17:50:28.629183 [info ] [MainThread]: python version: 3.11.3
+[0m17:50:28.631182 [info ] [MainThread]: python path: C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Scripts\python.exe
+[0m17:50:28.632181 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m17:50:29.393181 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:50:29.394182 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:50:29.395184 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:50:29.496179 [info ] [MainThread]: Using profiles dir at C:\Users\Nomaan\.dbt
+[0m17:50:29.497183 [info ] [MainThread]: Using profiles.yml file at C:\Users\Nomaan\.dbt\profiles.yml
+[0m17:50:29.498182 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\dbt_project.yml
+[0m17:50:29.500181 [info ] [MainThread]: adapter type: snowflake
+[0m17:50:29.501182 [info ] [MainThread]: adapter version: 1.11.6
+[0m17:50:29.503183 [info ] [MainThread]: Configuration:
+[0m17:50:29.504183 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:50:29.506188 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:50:29.507188 [info ] [MainThread]: Required dependencies:
+[0m17:50:29.508185 [debug] [MainThread]: Executing "git --help"
+[0m17:50:29.583194 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:50:29.584185 [debug] [MainThread]: STDERR: "b''"
+[0m17:50:29.586183 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:50:29.587182 [info ] [MainThread]: Connection:
+[0m17:50:29.589186 [info ] [MainThread]:   account: mmzexcd-tw56854
+[0m17:50:29.591183 [info ] [MainThread]:   user: mehrnuman367440
+[0m17:50:29.592182 [info ] [MainThread]:   database: SWIFTCART_DB
+[0m17:50:29.594187 [info ] [MainThread]:   warehouse: SWIFTCART_WH
+[0m17:50:29.595186 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m17:50:29.596185 [info ] [MainThread]:   schema: ANALYTICS_DEV
+[0m17:50:29.597185 [info ] [MainThread]:   authenticator: None
+[0m17:50:29.598184 [info ] [MainThread]:   oauth_client_id: None
+[0m17:50:29.600185 [info ] [MainThread]:   query_tag: None
+[0m17:50:29.601188 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:50:29.602187 [info ] [MainThread]:   host: None
+[0m17:50:29.604193 [info ] [MainThread]:   port: None
+[0m17:50:29.605186 [info ] [MainThread]:   proxy_host: None
+[0m17:50:29.607185 [info ] [MainThread]:   proxy_port: None
+[0m17:50:29.608185 [info ] [MainThread]:   protocol: None
+[0m17:50:29.609186 [info ] [MainThread]:   connect_retries: 1
+[0m17:50:29.611186 [info ] [MainThread]:   connect_timeout: None
+[0m17:50:29.612186 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:50:29.614186 [info ] [MainThread]:   retry_all: False
+[0m17:50:29.618228 [info ] [MainThread]:   insecure_mode: False
+[0m17:50:29.620187 [info ] [MainThread]:   reuse_connections: True
+[0m17:50:29.623184 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m17:50:29.625181 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m17:50:29.627184 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m17:50:30.358186 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:50:30.502184 [debug] [MainThread]: Using snowflake connection "debug"
+[0m17:50:30.503186 [debug] [MainThread]: On debug: select 1 as id
+[0m17:50:30.506186 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:50:31.544371 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m17:50:31.545367 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m17:50:31.546326 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:50:31.547328 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:50:31.548389 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\dbt_project.yml> not found
+
+[0m17:50:31.550406 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001 (08001): Failed to connect to DB: mmzexcd-tw56854.snowflakecomputing.com:443. Incorrect username or password was specified.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:50:31.552403 [debug] [MainThread]: Command `dbt debug` failed at 17:50:31.551401 after 3.10 seconds
+[0m17:50:31.552403 [debug] [MainThread]: Connection 'debug' was left open.
+[0m17:50:31.553402 [debug] [MainThread]: On debug: No close available on handle
+[0m17:50:31.554406 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000187AAB9C6D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000187AD0E7A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000187AABA5B90>]}
+[0m17:50:31.555403 [debug] [MainThread]: Flushing usage events
+[0m17:50:32.012988 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:51:55.780887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020914F31610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020915044350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020915044C90>]}
+
+
+============================== 17:51:55.787888 | 14944318-e922-4786-b1c2-cc44c20598ae ==============================
+[0m17:51:55.787888 [info ] [MainThread]: Running with dbt=1.11.12
+[0m17:51:55.788887 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Nomaan\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:51:55.834922 [info ] [MainThread]: dbt version: 1.11.12
+[0m17:51:55.835886 [info ] [MainThread]: python version: 3.11.3
+[0m17:51:55.836929 [info ] [MainThread]: python path: C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Scripts\python.exe
+[0m17:51:55.838888 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m17:51:56.606887 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:51:56.607930 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:51:56.608887 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:51:56.708886 [info ] [MainThread]: Using profiles dir at C:\Users\Nomaan\.dbt
+[0m17:51:56.709888 [info ] [MainThread]: Using profiles.yml file at C:\Users\Nomaan\.dbt\profiles.yml
+[0m17:51:56.710887 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\dbt_project.yml
+[0m17:51:56.712886 [info ] [MainThread]: adapter type: snowflake
+[0m17:51:56.714889 [info ] [MainThread]: adapter version: 1.11.6
+[0m17:51:56.715888 [info ] [MainThread]: Configuration:
+[0m17:51:56.717887 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:51:56.718929 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:51:56.720890 [info ] [MainThread]: Required dependencies:
+[0m17:51:56.721888 [debug] [MainThread]: Executing "git --help"
+[0m17:51:56.806886 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:51:56.807886 [debug] [MainThread]: STDERR: "b''"
+[0m17:51:56.808887 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:51:56.809887 [info ] [MainThread]: Connection:
+[0m17:51:56.811887 [info ] [MainThread]:   account: MMZEXCD-TW56854
+[0m17:51:56.812887 [info ] [MainThread]:   user: MEHRNUMAN367440
+[0m17:51:56.813886 [info ] [MainThread]:   database: SWIFTCART_DB
+[0m17:51:56.814887 [info ] [MainThread]:   warehouse: SWIFTCART_WH
+[0m17:51:56.816894 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m17:51:56.818891 [info ] [MainThread]:   schema: ANALYTICS_DEV
+[0m17:51:56.819891 [info ] [MainThread]:   authenticator: None
+[0m17:51:56.820892 [info ] [MainThread]:   oauth_client_id: None
+[0m17:51:56.821894 [info ] [MainThread]:   query_tag: None
+[0m17:51:56.822892 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:51:56.824890 [info ] [MainThread]:   host: None
+[0m17:51:56.825893 [info ] [MainThread]:   port: None
+[0m17:51:56.826893 [info ] [MainThread]:   proxy_host: None
+[0m17:51:56.828890 [info ] [MainThread]:   proxy_port: None
+[0m17:51:56.829888 [info ] [MainThread]:   protocol: None
+[0m17:51:56.830888 [info ] [MainThread]:   connect_retries: 1
+[0m17:51:56.831888 [info ] [MainThread]:   connect_timeout: None
+[0m17:51:56.833891 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:51:56.834893 [info ] [MainThread]:   retry_all: False
+[0m17:51:56.836889 [info ] [MainThread]:   insecure_mode: False
+[0m17:51:56.838894 [info ] [MainThread]:   reuse_connections: True
+[0m17:51:56.843914 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m17:51:56.844887 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m17:51:56.846888 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m17:51:57.532892 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:51:57.670937 [debug] [MainThread]: Using snowflake connection "debug"
+[0m17:51:57.671930 [debug] [MainThread]: On debug: select 1 as id
+[0m17:51:57.673890 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:51:58.849187 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m17:51:58.849187 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m17:51:58.850186 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:51:58.851188 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:51:58.853189 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\dbt_project.yml> not found
+
+[0m17:51:58.854185 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001 (08001): Failed to connect to DB: MMZEXCD-TW56854.snowflakecomputing.com:443. Incorrect username or password was specified.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:51:58.856229 [debug] [MainThread]: Command `dbt debug` failed at 17:51:58.856229 after 3.21 seconds
+[0m17:51:58.857186 [debug] [MainThread]: Connection 'debug' was left open.
+[0m17:51:58.858187 [debug] [MainThread]: On debug: No close available on handle
+[0m17:51:58.859197 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002090E39AAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020914C88A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020914D7EC90>]}
+[0m17:51:58.860194 [debug] [MainThread]: Flushing usage events
+[0m17:51:59.327093 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:56:20.452491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A3D54A3F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A3D543F250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A3D543F550>]}
+
+
+============================== 17:56:20.458493 | 34d22e9b-3725-4c2d-ac53-5b0b105b65dd ==============================
+[0m17:56:20.458493 [info ] [MainThread]: Running with dbt=1.11.12
+[0m17:56:20.460495 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Nomaan\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:56:20.508494 [info ] [MainThread]: dbt version: 1.11.12
+[0m17:56:20.509494 [info ] [MainThread]: python version: 3.11.3
+[0m17:56:20.510494 [info ] [MainThread]: python path: C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Scripts\python.exe
+[0m17:56:20.512494 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m17:56:21.314493 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:56:21.314493 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:56:21.315494 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:56:21.418492 [info ] [MainThread]: Using profiles dir at C:\Users\Nomaan\.dbt
+[0m17:56:21.419492 [info ] [MainThread]: Using profiles.yml file at C:\Users\Nomaan\.dbt\profiles.yml
+[0m17:56:21.420492 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\dbt_project.yml
+[0m17:56:21.422492 [info ] [MainThread]: adapter type: snowflake
+[0m17:56:21.424493 [info ] [MainThread]: adapter version: 1.11.6
+[0m17:56:21.426493 [info ] [MainThread]: Configuration:
+[0m17:56:21.427492 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:56:21.429496 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:56:21.430496 [info ] [MainThread]: Required dependencies:
+[0m17:56:21.432492 [debug] [MainThread]: Executing "git --help"
+[0m17:56:21.535495 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:56:21.536493 [debug] [MainThread]: STDERR: "b''"
+[0m17:56:21.537494 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:56:21.538494 [info ] [MainThread]: Connection:
+[0m17:56:21.540493 [info ] [MainThread]:   account: MMZEXCD-TW56854
+[0m17:56:21.541493 [info ] [MainThread]:   user: MEHRNUMAN367440
+[0m17:56:21.542494 [info ] [MainThread]:   database: SWIFTCART_DB
+[0m17:56:21.543494 [info ] [MainThread]:   warehouse: SWIFTCART_WH
+[0m17:56:21.545494 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m17:56:21.546496 [info ] [MainThread]:   schema: ANALYTICS_DEV
+[0m17:56:21.548494 [info ] [MainThread]:   authenticator: None
+[0m17:56:21.549495 [info ] [MainThread]:   oauth_client_id: None
+[0m17:56:21.550495 [info ] [MainThread]:   query_tag: None
+[0m17:56:21.551493 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:56:21.553495 [info ] [MainThread]:   host: None
+[0m17:56:21.554494 [info ] [MainThread]:   port: None
+[0m17:56:21.555497 [info ] [MainThread]:   proxy_host: None
+[0m17:56:21.556497 [info ] [MainThread]:   proxy_port: None
+[0m17:56:21.558494 [info ] [MainThread]:   protocol: None
+[0m17:56:21.559495 [info ] [MainThread]:   connect_retries: 1
+[0m17:56:21.560494 [info ] [MainThread]:   connect_timeout: None
+[0m17:56:21.561494 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:56:21.563495 [info ] [MainThread]:   retry_all: False
+[0m17:56:21.564503 [info ] [MainThread]:   insecure_mode: False
+[0m17:56:21.566494 [info ] [MainThread]:   reuse_connections: True
+[0m17:56:21.567495 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m17:56:21.572497 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m17:56:21.574497 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m17:56:22.273497 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:56:22.412495 [debug] [MainThread]: Using snowflake connection "debug"
+[0m17:56:22.413497 [debug] [MainThread]: On debug: select 1 as id
+[0m17:56:22.414499 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:56:23.406759 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m17:56:23.407760 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m17:56:23.408723 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:56:23.409722 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:56:23.410946 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\dbt_project.yml> not found
+
+[0m17:56:23.412962 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001 (08001): Failed to connect to DB: MMZEXCD-TW56854.snowflakecomputing.com:443. Failed to authenticate: MFA authentication is required, but none of your current MFA methods are supported for programmatic authentication.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:56:23.414960 [debug] [MainThread]: Command `dbt debug` failed at 17:56:23.414960 after 3.08 seconds
+[0m17:56:23.415965 [debug] [MainThread]: Connection 'debug' was left open.
+[0m17:56:23.416963 [debug] [MainThread]: On debug: No close available on handle
+[0m17:56:23.418962 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A3D54C2490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A3D7CE9990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A3D686BDD0>]}
+[0m17:56:23.419961 [debug] [MainThread]: Flushing usage events
+[0m17:56:23.875051 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:08:11.447945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6B79CC3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6B6F74A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6BB0CE810>]}
+
+
+============================== 18:08:11.454957 | 725d5937-1e4a-40e7-8284-d43bd915fd96 ==============================
+[0m18:08:11.454957 [info ] [MainThread]: Running with dbt=1.11.12
+[0m18:08:11.455944 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Nomaan\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt init swiftcart_analytics', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:08:11.505948 [debug] [MainThread]: Starter project path: C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt\include\starter_project
+[0m18:08:11.555950 [info ] [MainThread]: 
+Your new dbt project "swiftcart_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:08:11.559967 [info ] [MainThread]: Setting up your profile.
+[0m18:08:23.451869 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:08:23.452918 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:08:23.453915 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:12:41.546288 [info ] [MainThread]: Profile swiftcart_analytics written to C:\Users\Nomaan\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:12:41.550291 [debug] [MainThread]: Command `dbt init` succeeded at 18:12:41.550291 after 270.24 seconds
+[0m18:12:41.552289 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6BB152710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6B44BAAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6BD065150>]}
+[0m18:12:41.554331 [debug] [MainThread]: Flushing usage events
+[0m18:12:42.069809 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:15:46.769738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C88D7C1450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C88D60F290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C88D7B9010>]}
+
+
+============================== 18:15:46.777738 | 379f0a1b-54fa-49ee-b340-85a02786b510 ==============================
+[0m18:15:46.777738 [info ] [MainThread]: Running with dbt=1.11.12
+[0m18:15:46.779752 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Nomaan\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init swiftcart_analytics', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:15:46.832740 [debug] [MainThread]: Starter project path: C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\.venv\Lib\site-packages\dbt\include\starter_project
+[0m18:15:46.872740 [info ] [MainThread]: 
+Your new dbt project "swiftcart_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:15:46.874741 [info ] [MainThread]: Setting up your profile.
+[0m18:15:53.848710 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:15:53.850713 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:15:53.851721 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:17:23.716848 [info ] [MainThread]: Profile swiftcart_analytics written to C:\Users\Nomaan\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:17:23.719852 [debug] [MainThread]: Command `dbt init` succeeded at 18:17:23.719852 after 97.10 seconds
+[0m18:17:23.721850 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C88D60EE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C886D3AAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C88C99D7D0>]}
+[0m18:17:23.723857 [debug] [MainThread]: Flushing usage events
+[0m18:17:24.201640 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:29:04.060617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FC4B95F2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FC4BA8A9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FC4BA2A290>]}
+
+
+============================== 15:29:04.070616 | 5dd194b9-342e-422b-8a2c-c38ae4859df3 ==============================
+[0m15:29:04.070616 [info ] [MainThread]: Running with dbt=1.11.12
+[0m15:29:04.072619 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Nomaan\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt deps', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:29:04.074620 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Nomaan\Desktop\de\swiftcart-revenue-intelligence-platform\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:29:04.076251 [debug] [MainThread]: Command `dbt deps` failed at 15:29:04.076251 after 0.13 seconds
+[0m15:29:04.077251 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FC4B7C8990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FC4B6C5F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FC4BA34DD0>]}
+[0m15:29:04.078252 [debug] [MainThread]: Flushing usage events
+[0m15:29:04.613762 [debug] [MainThread]: An error was encountered while trying to flush usage events

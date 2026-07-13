@@ -1,0 +1,45 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: Cleaned orders data.
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: stg_customers
+    description: Customer master data.
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_products
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_sellers
+    columns:
+      - name: seller_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_reviews
+    columns:
+      - name: review_id
+        tests:
+          - not_null
+          - name: order_id
+        tests:
+          - not_null

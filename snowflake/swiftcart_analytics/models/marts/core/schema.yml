@@ -1,0 +1,105 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: One row per unique customer.
+    columns:
+      - name: customer_key
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_unique_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_products
+    description: One row per product.
+    columns:
+      - name: product_key
+        tests:
+          - unique
+          - not_null
+
+      - name: product_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_sellers
+    description: One row per seller.
+    columns:
+      - name: seller_key
+        tests:
+          - unique
+          - not_null
+
+      - name: seller_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_date
+    description: Calendar dimension containing one row per date.
+    columns:
+      - name: date_key
+        tests:
+          - unique
+          - not_null
+
+      - name: full_date
+        tests:
+          - unique
+          - not_null
+
+  - name: fact_order_items
+    description: Transaction fact table with one row per order item.
+
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - order_id
+            - order_item_id
+
+    columns:
+      - name: order_item_key
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_customers')
+                field: customer_key
+
+      - name: product_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_products')
+                field: product_key
+
+      - name: seller_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_sellers')
+                field: seller_key
+
+      - name: purchase_date_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_key
+
+      - name: product_revenue
+        tests:
+          - not_null

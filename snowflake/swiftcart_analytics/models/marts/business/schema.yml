@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: mart_revenue
+    description: Daily executive revenue and order metrics.
+    columns:
+      - name: purchase_date_key
+        tests:
+          - unique
+          - not_null
+
+  - name: mart_product_performance
+    description: Product-level sales and delivery performance.
+    columns:
+      - name: product_key
+        tests:
+          - unique
+          - not_null
+
+  - name: mart_seller_performance
+    description: Seller-level revenue and delivery metrics.
+    columns:
+      - name: seller_key
+        tests:
+          - unique
+          - not_null
+
+  - name: mart_customer_retention
+    description: Customer lifetime value and repeat-purchase metrics.
+    columns:
+      - name: customer_key
+        tests:
+          - unique
+          - not_null
+
+  - name: mart_delivery_performance
+    description: Delivery performance aggregated by customer state.
+    columns:
+      - name: customer_state
+        tests:
+          - unique
+          - not_null

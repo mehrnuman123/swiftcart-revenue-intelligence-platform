@@ -34,9 +34,14 @@ jobs:
 
       - name: Create Snowflake private key
         shell: bash
+        env:
+          SNOWFLAKE_PRIVATE_KEY_BASE64: ${{ secrets.SNOWFLAKE_PRIVATE_KEY }}
         run: |
-          printf '%s' "${{ secrets.SNOWFLAKE_PRIVATE_KEY }}" > rsa_key.p8
+          printf '%s' "$SNOWFLAKE_PRIVATE_KEY_BASE64" | base64 --decode > rsa_key.p8
           chmod 600 rsa_key.p8
+
+          # Validate the key file without printing it
+          openssl pkey -in rsa_key.p8 -check -noout
 
       - name: Create dbt CI profile
         shell: bash

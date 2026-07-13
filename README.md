@@ -178,13 +178,13 @@ swiftcart-revenue-intelligence-platform
 
 ## 6. Snapshot (SCD Type 2)
 
-![Snapshot](docs/dbt_snapshot.JPG)
+![Snapshot](docs/dbt_snapshoot.JPG)
 
 ---
 
 ## 7. Snapshot History
 
-![Snapshot History](docs/dbt_snapshot_0.JPG)
+![Snapshot History](docs/dbt_snapshoot_0.JPG)
 
 ---
 

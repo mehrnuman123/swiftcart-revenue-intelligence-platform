@@ -2,10 +2,12 @@ name: dbt CI
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
   pull_request:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   dbt-build:
@@ -37,8 +39,23 @@ jobs:
         env:
           SNOWFLAKE_PRIVATE_KEY_BASE64: ${{ secrets.SNOWFLAKE_PRIVATE_KEY }}
         run: |
-          printf '%s' "$SNOWFLAKE_PRIVATE_KEY_BASE64" | base64 --decode > rsa_key.p8
+          set -euo pipefail
+
+          if [ -z "$SNOWFLAKE_PRIVATE_KEY_BASE64" ]; then
+            echo "SNOWFLAKE_PRIVATE_KEY is empty"
+            exit 1
+          fi
+
+          printf '%s' "$SNOWFLAKE_PRIVATE_KEY_BASE64" \
+            | tr -d '\r\n ' \
+            | base64 --decode > rsa_key.p8
+
           chmod 600 rsa_key.p8
+
+          echo "Decoded key size: $(wc -c < rsa_key.p8) bytes"
+          echo "Decoded key header:"
+          head -n 1 rsa_key.p8
+
           openssl pkey -in rsa_key.p8 -check -noout
 
       - name: Create dbt CI profile
@@ -68,3 +85,7 @@ jobs:
 
       - name: Build and test dbt project
         run: dbt build --target ci
+
+      - name: Remove private key
+        if: always()
+        run: rm -f rsa_key.p8

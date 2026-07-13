@@ -1,0 +1,22 @@
+version: 2
+
+exposures:
+  - name: swiftcart_executive_dashboard
+    label: SwiftCart Executive Dashboard
+    type: dashboard
+    maturity: high
+
+    description: >
+      Power BI dashboard for revenue, customer, product,
+      seller, and delivery performance.
+
+    depends_on:
+      - ref('mart_revenue')
+      - ref('mart_customer_retention')
+      - ref('mart_product_performance')
+      - ref('mart_seller_performance')
+      - ref('mart_delivery_performance')
+
+    owner:
+      name: Muhammad Numan
+      email: mnuman2024@gmail.com

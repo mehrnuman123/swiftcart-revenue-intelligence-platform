@@ -1,4 +1,4 @@
-# 🚀 SwiftCart Revenue Intelligence Platform (Snowflake, DBT)
+# 🚀 SwiftCart Revenue Intelligence Platform (snowflake, dbt)
 
 A production level analytics project demonstrating how raw e-commerce data can be transformed into business-ready insights using **Snowflake**, **dbt**, **Power BI**, and **GitHub Actions**.
 

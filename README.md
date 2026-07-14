@@ -227,15 +227,6 @@ The project exposes analytics-ready marts that power executive reporting.
 
 ---
 
-# Future Improvements
-
-- dbt Semantic Layer
-- Data Observability with Elementary
-- Airflow Orchestration
-- Infrastructure as Code (Terraform)
-- Snowflake Tasks & Streams
-- Multi-environment deployment
-- Cloud deployment (AWS/Azure)
 
 ---
 
